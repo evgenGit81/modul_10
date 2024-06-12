@@ -1,10 +1,9 @@
 # -*- coding: utf-8 -*-
 import time
-import threading
 from threading import Thread
 
 class Knight(Thread):
-    """"""
+    """Счетчик сражения"""
     def __init__(self, name, scill):
         Thread.__init__(self)
         self.name = name
