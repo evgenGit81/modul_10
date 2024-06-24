@@ -3,6 +3,7 @@
 from threading import Thread, Lock
 
 class BankAccount:
+    """Добавление в депозитб снятие с депозита"""
     
     def __init__(self):
         self.lock = Lock()
