@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 import threading
 from threading import Thread
 import time
 import queue
-import random
+
 
 class Table:
 
